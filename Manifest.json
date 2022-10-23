@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "IlikeGoogly",
+    "version": "1.0",
+    "icons": {
+        "16": "images/đ.png",
+        "48": "images/icons8-touch-id-48.png",
+        "128": "images/icons8-touch-id-128.png"
+
+    },
+"page_action": {
+        "16": "images/đ.png",
+        "48": "images/icons8-touch-id-48.png",
+        "128": "images/icons8-touch-id-128.png"
+    },
+    "content_scripts":[
+    {
+        "matches": ["https://www.google.com/*"],
+        "css": ["main.css"]
+    }
+]
+
+}
